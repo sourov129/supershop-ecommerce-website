@@ -1,0 +1,255 @@
+.admin-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+   
+}
+
+.admin-container form {
+    width: 100%;
+    height: auto;
+    padding: 26px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.admin-container form h1 {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 700px;
+   
+}
+
+
+.admin-container form .fcontrol-gorup{
+ margin-top: 5px;
+ margin-bottom: 5px;
+ font-weight: bold;        
+}
+
+.admin-container form .fcontrol {
+    width: 100%;
+    height: 28px;
+    background-color: rgb(243, 235, 235);
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+
+.admin-container form .ad-btn {
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+    color: white;
+}
+
+.admin-container form .ad-btn:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+.nav-item{
+    padding: 12px;
+}
+
+
+
+.nav-item:hover{
+    background-color: red;
+    color: white;
+   
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    
+}
+
+/* .dropdown:hover{
+    background-color: red;
+    color: white;
+
+} */
+
+
+.container1 {
+
+    text-align: center;
+    background-color: rgb(160, 134, 209);
+    
+}
+
+.bg-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.heading {
+    border: solid 1px;
+    width: 45%;
+   
+}
+
+.bg-image h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.bg-image p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.btn-shop {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: goldenrod;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn-shop:hover {
+    background: rgb(225, 78, 78);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: solid 1px;
+    grid-column-gap: -20px;
+
+}
+
+.product-view{
+    display: flex;
+    
+}
+
+.itemdetails{
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 40px;
+
+}
+
+
+.customer-servies {
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.servies-content h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.icon-bg {
+    padding: 10px;
+}
+
+
+.product-view{
+    display: flex;
+}
+
+
+
+
+/* login interface and register interface*/
+
+.login-container{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+
+}
+
+.login-container form{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.login-container form h1{
+    text-align: center;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.login-container form .from-control{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+}
+
+.login-container form .btn-login{
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    border: 1px solid silver;
+    margin: 10px 0 18px 0;
+    padding: 0 10px;
+    color: white;
+
+}
+.login-container form .btn-login:hover{
+    background-color: blue;
+}
+
+.login-footer{
+    text-align: center;
+}
+
+
+
+
+
