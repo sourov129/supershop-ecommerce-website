@@ -13,22 +13,13 @@ $result=$query->execute();
 $list=$query->fetchALL();
 
 
-
-
 if($list)
 {
-
-    echo '<script>alert("Log in successfull");window.location.href = "show.php"</script>';
-    
+    header("Location: show.php");
 }
 else{
-
-    echo '<script>alert("Please enter valid email or password");window.location.href = "login.html"</script>';
-    
-
+    header("Location: login.html");
 }
 
 
 ?>
-
-
